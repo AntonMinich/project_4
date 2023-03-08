@@ -809,7 +809,6 @@ table {
 
 /*SCSS*/
 .container-questions {
-  padding: 128px 0;
   font-family: "Poppins";
 }
 .container-questions .questions-info {
@@ -841,6 +840,8 @@ table {
 }
 .container-questions .questions-info .right-side .question-item:last-child {
   border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .container-questions .questions-info .right-side .question-item .plus {
   justify-self: end;
@@ -1332,6 +1333,7 @@ table {
   }
   .container-website {
     margin-bottom: 30px;
+    margin-top: 0;
   }
   .blog .content {
     grid-template-columns: 1fr;

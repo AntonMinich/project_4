@@ -817,7 +817,6 @@ $darkColor: #282938;
 $blueColor: rgba(36, 5, 242, 0.87);
 
 .container-questions{
-    padding: 128px 0;
     font-family: 'Poppins';
 
     .questions-info{
@@ -851,6 +850,8 @@ $blueColor: rgba(36, 5, 242, 0.87);
 
                 &:last-child{
                     border-bottom: none;
+                    margin-bottom:0;
+                    padding-bottom:0;
                 }
 
                 .plus{
@@ -1495,6 +1496,7 @@ $font:'Poppins';
 
     .container-website {
         margin-bottom: 30px;
+        margin-top:0;
     }
 
     .blog .content {
