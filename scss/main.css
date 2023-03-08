@@ -507,6 +507,7 @@ table {
 .container-comments {
   font-family: "Poppins";
   background: rgba(244, 246, 252, 0.5);
+  margin-bottom: 80px;
 }
 
 .container-comments .box-comments {
@@ -1217,6 +1218,9 @@ table {
   .container-features .content-features .function .content-function {
     margin-left: 5%;
     margin-right: 5%;
+  }
+  .container-comments {
+    margin-bottom: 0px;
   }
   .container-comments .box-comments {
     grid-template-columns: 1fr;
